@@ -1,9 +1,11 @@
-🛡️ MarHix GRC Agent - Local AI-Powered Compliance Automation
+# 🛡️ MarHix GRC Agent - Local AI-Powered Compliance Automation
 A privacy-first, locally-deployable GRC (Governance, Risk & Compliance) agent for automated security posture assessment against NIS2, ISO 27001, and CIS Controls.
-🎯 Project Overview
+
+# 🎯 Project Overview
 MarHix GRC Agent is a Windows-native compliance automation tool that continuously monitors and assesses organizational security posture against European cybersecurity frameworks. Unlike cloud-based solutions (OmniSec, Drata, Vanta), MarHix operates 100% locally with optional AI-powered insights, ensuring complete data sovereignty and GDPR compliance.
 🔗 Built for: European SMEs, public institutions, healthcare organizations, and critical infrastructure operators requiring NIS2 compliance.
-✨ Key Features
+
+# ✨ Key Features
 
 🏠 Local-First Architecture: Zero cloud dependency, complete tenant isolation
 🇪🇺 EU Compliance Ready: Native NIS2 Directive 2022/2555 & ISO 27001:2022 mapping
@@ -11,7 +13,8 @@ MarHix GRC Agent is a Windows-native compliance automation tool that continuousl
 ⚡ Real-Time Monitoring: Continuous security posture assessment
 📊 Executive Reporting: Clean HTML/PDF reports with risk visualization
 🔧 Extensible Framework: YAML-based rule engine for custom compliance frameworks
-🏗️ Architecture
+
+# 🏗️ Architecture
 MarHix GRC Agent
 ├── 📊 Data Collectors (PowerShell/Python)
 │   ├── Microsoft Defender Status
@@ -34,8 +37,9 @@ MarHix GRC Agent
     ├── HTML Executive Reports
     ├── PDF Compliance Reports
     └── SaaS Integration Prep
-🚀 Quick Start
-powershell# 1. Clone repository
+    
+# 🚀 Quick Start
+# 1. Clone repository
 git clone https://github.com/marhix-ai/grc-agent.git
 cd grc-agent
 
@@ -50,7 +54,7 @@ python rule_engine.py defender-evidence-*.json --executive-summary
 # 4. View results
 start .\outputs\executive_summary_*.json
 
-📋 Compliance Coverage
+# 📋 Compliance Coverage
 NIS2 Directive 2022/2555:
 
 Article 21.2(a) - Protection against malware ✅
@@ -72,7 +76,7 @@ Control 3 - Data Protection ✅
 Control 5 - Account Management ✅
 Control 10 - Malware Defenses ✅
 
-🛠️ Technology Stack
+# 🛠️ Technology Stack
 
 Data Collection: PowerShell 5.1+, WMI, Windows APIs
 Rule Engine: Python 3.8+, PyYAML, Jinja2
@@ -81,5 +85,5 @@ Reporting: WeasyPrint, ReportLab, HTML5/CSS3
 Configuration: YAML-based rule definitions
 Output Formats: JSON, YAML, HTML, PDF
 
-🎓 Academic Project
+# 🎓 Academic Project
 This project is part of a 26-week internship program at MarHix AI (September 2025 - February 2026), focused on building European AI solutions with privacy-by-design principles.
